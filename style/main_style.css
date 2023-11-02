@@ -1,0 +1,82 @@
+
+/*welcom*/
+
+.welcom__row {
+  background: url(../pictures/фон.jpg) no-repeat center center;
+  width: auto;
+  height: 700px;
+  background-size: contain;
+  color: #FFFFFF;
+  text-align: center;
+  
+ }
+ .welcom__row .welcom__row__title{
+  display: inline-block; 
+  margin-right: -0.25em;
+  width: 100%;
+  padding-top: 520px;
+ } 
+
+ /* категории */
+
+ .categories__row{
+  background-color: #FAEFE0;
+  padding: 55px 25px;
+  display: flex;
+  justify-content: space-between;
+ }
+ .categories__row .circle{
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 36px;
+ }
+ .categories__row .category{
+  max-width: 175px;;
+ }
+ .categories__row .category a{
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ }
+ .categories__row .category a:hover{
+  color: #920606;
+}
+
+ /* последние рецепты */
+ .last__recipes__row{
+  padding: 0 25px;
+  padding-bottom: 34px;
+ }
+
+ .last__recipes__row .recipes{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .last__recipes__row .recipe{
+  width: 338px;
+ }
+
+ .last__recipes__row .recipe a:hover{
+  text-decoration: underline;
+ }
+
+ .last__recipes__row .recipe .last__recipes__theTitle{
+  font-size: 22px;
+ }
+ .last__recipes__row .recipe .last__recipes__description{
+  font-size: 18px;
+  text-align: justify;
+ }
+
+ .last__recipes__title{
+  display: block;
+  padding: 34px 0;
+  text-align: center;
+  font-size: 24px;
+ }
+
+ 

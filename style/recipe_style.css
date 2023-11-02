@@ -1,0 +1,143 @@
+/* Описание рецепта и картинка*/
+.recipe_discription__row{
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 25px 37px;
+    font-size: 22px;
+    background-color: #FAEFE0;
+    align-items: center;
+
+}
+.recipe_discription__row .recipe__img{
+    width: 50%;
+}
+.recipe_discription__row img{
+    width: 100%;
+}
+
+.recipe_discription__row .discription{
+    padding-left: 20px;
+    width: 50%;
+    text-align: justify;
+}
+.recipe_discription__row .discription h1{
+    text-align: left;
+}
+/* Ингредиенты */
+.ingredients__row{
+    padding: 0 25px;
+    background-color: #FAEFE0;
+
+}
+.ingredients__row .ingredients__title{
+    font-size: 30px;
+    padding-bottom: 62px;
+}
+.ingredients__row .ingredients__items__row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    padding-bottom: 64px;
+}
+.ingredients__row .ingredients__items__row .ingredients__other{
+    width: 50%;
+}
+.ingredients__row .ingredients__items__row .ingredients__discription{
+    width: 50%;
+}
+/* Инструкция */
+.manual__row{
+    padding: 0 25px;
+    background-color: #FAEFE0;
+}
+.manual__row .manual__title{
+    font-size: 30px;
+    padding-bottom: 62px;
+}
+.manual__row .manual__items__row .step__figure{
+    display: flex;
+    align-items: center;
+    width: 152px;
+    height: 68px;
+    background-color: #D2B288;
+    font-size: 25px;
+    justify-content: center;
+    border-radius: 50px;
+    border: 0cm;
+    margin-bottom: 77px;
+}
+.manual__row .manual__items__row .step__discription{
+    font-size: 22px;
+    text-align: justify;
+    padding-bottom: 77px;
+}
+/* Отзыв */
+.feedback__row{
+    background-color: #FFFFFF;
+    padding: 60px 25px 53px;
+}
+.feedback__row form .feedback__title{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 68px;
+}
+.feedback__row form .container_comment{
+    display: flex;
+    justify-content: center;
+}
+.feedback__row form .container_comment textarea{
+    background-color: #EFEFEF;
+    text-decoration-color: #686868;
+    width: 1201px;
+    height: 270px;
+    border-radius: 50px;
+    border: 0cm;
+    padding-left: 43px;
+    padding-top: 43px;
+    resize: none;
+    font-size: 20px;
+}
+.feedback__row form .container_comment textarea:focus,.feedback__row form .container_namemail textarea:focus{
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.feedback__row form .container_namemail{
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.feedback__row form .container_namemail .area{
+    padding-right: 15px;
+}
+.feedback__row form .container_namemail textarea{
+    background-color: #EFEFEF;
+    text-decoration-color: #686868;
+    width: 570px;
+    height: 55px;
+    border-radius: 50px;
+    border: 0cm;
+    padding-left: 43px;
+    padding-top: 43px;
+    resize: none;
+    font-size: 20px;
+}
+.feedback__row .feedback__button{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.feedback__row .feedback__button input[type="submit"]{
+    background-color: #D2B288;
+    font-size: 26px;
+    width: 327px;
+    height: 75px;
+    border-radius: 50px;
+    border: 0cm;
+   }
+  
+.feedback__row .feedback__button input[type="submit"]:hover{
+    background-color: #d0a56d;
+    cursor: pointer;
+   }

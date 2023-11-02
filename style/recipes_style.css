@@ -1,0 +1,33 @@
+/* Рецепты */
+.recipes__row{
+    padding: 0 25px;
+    padding-bottom: 34px;
+   }
+  
+   .recipes__row .recipes{
+    display: flex;
+    justify-content: space-between;
+   }
+  
+   .recipes__row .recipe{
+    width: 338px;
+   }
+  
+   .recipes__row .recipe a:hover{
+    text-decoration: underline;
+   }
+  
+   .recipes__row .recipe .recipes__theTitle{
+    font-size: 22px;
+   }
+   .recipes__row .recipe .recipes__description{
+    font-size: 18px;
+    text-align: justify;
+   }
+  
+   .recipes__title{
+    display: block;
+    padding: 34px 0;
+    text-align: center;
+    font-size: 24px;
+   }

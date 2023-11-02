@@ -1,0 +1,67 @@
+.find__recipe{
+    background-color: #FAEFE0;
+    padding: 0 25px;
+}
+.find_recipe__row .find__title{
+    display: block;
+    padding: 62px 0;
+    text-align: center;
+    font-size: 36px;
+}
+.find_recipe__row .recipe__name input[type="text"], .find_recipe__row .filter_items input[type="text"] {
+    background-color: #FFFFFF;
+    text-decoration-color: #A5A4A4;
+    width: 500px;
+    height: 38px;
+    border-radius: 50px;
+    border: 0cm;
+    padding-left: 20px;
+    resize: none;
+    font-size: 20px;
+}
+.find_recipe__row .recipe__name input[type="text"]:focus, .find_recipe__row .filter_items input[type="text"]:focus {
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.find_recipe__row .recipe__name{
+    padding-bottom: 62px;
+}
+.find_recipe__row .filter_title, .find__table__row .filter_title{
+    font-size: 22px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.find__table__row .filter_title{
+    padding-left: 40px;
+}
+.find_recipe__row .filter_items input[type="text"]{
+    width: 250px;
+}
+.find_recipe__row .filter_items{
+    padding-bottom: 20px;
+}
+
+#myTable {
+	width: 100%;
+	border: none;
+    padding-bottom: 20px;
+}
+#myTable thead th {
+	padding: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #0b0b0b;
+	border-top: 2px solid #716561;
+	border-bottom: 2px solid #716561;
+}
+#myTable tbody td {
+	padding: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #0b0b0b;
+	border-top: 1px solid #716561;
+    text-align: center;
+}
